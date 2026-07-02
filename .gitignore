@@ -1,0 +1,8 @@
+# Ignore VS Code files
+**/.DS_Store
+
+# Ignore Terraform files
+**/.terraform
+
+# Ignore all private key files
+**/*.pem
