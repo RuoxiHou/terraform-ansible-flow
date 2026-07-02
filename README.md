@@ -20,7 +20,7 @@ This will generate the infra and the private keys to connect.
 Right now, terraform isn't automating the creation of keys in ansible's folder.
 You have to **manually copy the generate key in infra folder to ansible's folder (in keys folder)**.
 
-Make sure to also **update the **`/ansible/group_vars/all.yaml`** with the new public IP's from your machines.
+Make sure to also update the **`/ansible/group_vars/all.yaml`** with the new public IP's from your machines.
 
 After that, go to ansible's folder, and execute:
 ```bash
